@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - "6.11.3"
+cache:
+  directories:
+    - "node_modules"
+notifications:
+  email:
+    recipients:
+      - pskrunner14@gmail.com
+    on_success: never
+    on_failure: always

@@ -1,0 +1,41 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+video {
+    background: #CCC;
+}
+
+.container {
+    width: 100%;
+}
+
+.video-large {
+    width: 75%;
+    float: left;
+}
+
+.users-container {
+    width: 21%;
+    float: left;
+    padding: 2%;
+    position: relative;
+}
+
+.video-small {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#users div {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#users .active {
+    color: #000;
+    cursor: default;
+}

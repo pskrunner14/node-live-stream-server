@@ -1,0 +1,17 @@
+{
+    "node": true,
+    "esversion": 6,
+    "browser": true,
+    "mocha": true,
+    "jquery": true,
+    "strict": true,
+    "devel": true,
+    "undef": true,
+    "globals": {
+        "angular": true,
+        "io": true
+    },
+    "indent": 4,
+    "curly": true,
+    "eqeqeq": true
+}
