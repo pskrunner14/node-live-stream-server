@@ -1,6 +1,6 @@
 "use strict";
 
-var socket = io.connect(document.URL);
+var socket = io.connect("https://node-live-stream-server.herokuapp.com");
 
 var answersFrom = {};
 var offer;
